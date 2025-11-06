@@ -1,0 +1,61 @@
+// MCQ Answers 
+
+ans - 1 - Building user interfaces
+ans - 2 - Write HTML-like code inside JavaScript
+ans - 3 - Props are immutable and flow parent → child
+ans - 4 - CamelCase
+ans - 5 - Virtual DOM
+
+ans - 6 -
+
+import React from 'react';
+
+const HelloWorld = () => {
+  return (
+    <div>
+      Hello, React!
+    </div>
+  );
+};
+
+export default HelloWorld;   
+
+ans - 7 - 
+
+Functional and class components in React they are basically different in syntax.
+Functional components are simple JavaScript functions that return JSX and use hooks.
+class component have ES6 components that extend React components.
+
+ans - 8 -
+
+If You are rendering the component using jsx it is necessary it is inn capital letter otherwise react 
+through an error.
+
+ans - 9 - 
+
+js - Doesn’t include JSX syntax. Doesn’t need extra tools to run. Smaller and simpler if just handling logic.
+jsx - Includes JSX syntax to define the UI.Needs tools like Babel to convert JSX to JavaScript. Larger due to JSX code for user interfaces.
+
+ans - 10 - 
+
+import React from 'react';
+
+const element = () => {
+  const button = () => {
+    console.log('Button clicked!');
+  };
+
+  return (
+    <button onClick={button}>
+      Click the button
+    </button>
+  );
+};
+
+export default element;   
+
+// Another Question
+
+ans - 1 - Basically react are use for to design a better UI & dynamically & it uses to DOM to enhance the performance.
+
+ans - 2 - It’s designed to make web development faster and more efficient than the react. vite is better than react app because speed, flexibility, and modern development practices is easy.
